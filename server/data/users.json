@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Student",
+    "email": "alex@email.com",
+    "password": "123456",
+    "role": "Premium Member"
+  },
+  {
+    "id": 1774207296076,
+    "name": "sdvzsxvz",
+    "email": "safszc@gmail.com",
+    "password": "Saivikas@123",
+    "role": "Free Member"
+  },
+  {
+    "id": 1774207372497,
+    "name": "Sai vikas",
+    "email": "saivikasravuru@gmail.com",
+    "password": "Saivikas@123",
+    "role": "Free Member"
+  },
+  {
+    "id": 1774245182837,
+    "name": "nagendra",
+    "email": "nagendra@gmail.com",
+    "password": "Nag@2005",
+    "role": "Free Member",
+    "createdAt": "2026-03-23T05:53:02.837Z"
+  }
+]
