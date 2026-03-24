@@ -1,0 +1,168 @@
+.login-screen {
+  min-height: 100vh;
+  background: linear-gradient(160deg, #8B7CF6 0%, #6C5CE7 60%, #5a4fcf 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px 20px;
+}
+
+.login-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.app-logo {
+  font-size: 40px;
+  background: white;
+  border-radius: 20px;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+}
+
+.login-header h1 {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.login-header p {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+.login-card {
+  background: white;
+  border-radius: 24px;
+  padding: 28px 24px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+.login-card h2 {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+.input-group label {
+  font-size: 13px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 0 12px;
+  background: #fafafa;
+  transition: border-color 0.2s;
+}
+
+.input-wrap:focus-within {
+  border-color: var(--primary);
+  background: white;
+}
+
+.icon {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.input-wrap input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 13px 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  background: transparent;
+}
+
+.toggle-pass {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.error-msg {
+  color: #e17055;
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.btn-forgot {
+  width: 100%;
+  padding: 13px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #8B7CF6, #6C5CE7);
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  transition: transform 0.2s;
+}
+
+.btn-forgot:hover {
+  transform: translateY(-1px);
+}
+
+.btn-login {
+  width: 100%;
+  padding: 14px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #7c6fe0, #5a4fcf);
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn-login:hover {
+  transform: translateY(-1px);
+}
+
+.btn-login:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.signup-text {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 16px;
+  color: var(--muted);
+}
+
+.signup-text .link {
+  color: var(--primary);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.footer-text {
+  color: rgba(255,255,255,0.6);
+  font-size: 12px;
+  margin-top: 24px;
+}
